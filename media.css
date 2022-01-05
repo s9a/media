@@ -93,6 +93,18 @@ dd {
   }
 }
 
+@media (forced-colors:none) {
+  [data-forced-colors=none] {
+    display: inline;
+  }
+}
+
+@media (forced-colors:active) {
+  [data-forced-colors=active] {
+    display: inline;
+  }
+}
+
 @media (inverted-colors:none) {
   [data-inverted-colors=none] {
     display: inline;
