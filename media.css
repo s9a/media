@@ -79,24 +79,6 @@ dd {
   display: none;
 }
 
-@media (color-gamut:srgb) and not (color-gamut:p3) {
-  [data-color-gamut=srgb] {
-    display: inline;
-  }
-}
-
-@media (color-gamut:p3) and not (color-gamut:rec2020) {
-  [data-color-gamut=p3] {
-    display: inline;
-  }
-}
-
-@media (color-gamut:rec2020) {
-  [data-color-gamut=rec2020] {
-    display: inline;
-  }
-}
-
 @media (dynamic-range:high) {
   [data-dynamic-range=high] {
     display: inline;
