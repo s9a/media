@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8">
+<title>color media query laboratory</title>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name=color-scheme content="dark">
+<meta name=theme-color content="black">
+<meta name="description" content="detect color media queries in your web browser">
+<link rel="stylesheet" href="color.css" media=(color)>
+<link rel="stylesheet" href="media.css">
+<link rel="prev" href="https://webmural.com/media">
+<link rel="help" href="https://mdn.io/mathml">
+
+<main>
+  <header id="browser" aria-label="browser">
+    <a href="#current" class="spill">these</a> are
+    <a href="https://webmural.com/css">CSS</a>
+    color media features in your browser
+  </header>
+  <dl id="current" aria-label="current">
+    <dt id=color-gamut>color-gamut</dt>
+    <dd hidden data-color-gamut=srgb>srgb</dd>
+    <dd hidden data-color-gamut=p3>p3</dd>
+    <dd hidden data-color-gamut=rec2020>rec2020</dd>
+    <dt id=dynamic-range>dynamic-range</dt>
+    <dd hidden data-dynamic-range=standard>standard</dd>
+    <dd hidden data-dynamic-range=high>high</dd>
+    <dt id=inverted-colors>inverted-colors</dt>
+    <dd hidden data-inverted-colors=none>none</dd>
+    <dd hidden data-inverted-colors=inverted>inverted</dd>
+    <dt id=prefers-color-scheme>prefers-color-scheme</dt>
+    <dd hidden data-prefers-color-scheme=light>light</dd>
+    <dd hidden data-prefers-color-scheme=dark>dark</dd>
+    <dt id=prefers-contrast>prefers-contrast</dt>
+    <dd hidden data-prefers-contrast=less>less</dd>
+    <dd hidden data-prefers-contrast=more>more</dd>
+  </dl>
+  <footer aria-label="respect">
+    <blockquote cite="https://webmural.com/media">
+      <a href="https://mdn.io/media-queries">media queries</a>
+      help coders respect your interface preferences
+    </blockquote>
+  </footer>
+</main>

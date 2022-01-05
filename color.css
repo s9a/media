@@ -1,0 +1,38 @@
+::selection {
+  background: thistle;
+  color: #030303;
+}
+
+:root {
+  --sludge: mediumblue;
+  --slime: darkorange;
+  background: var(--sludge);
+  color: var(--slime);
+}
+
+a {
+  transition: 30ms ease-out;
+}
+
+dl {
+  color: var(--sludge);
+  background: var(--slime);
+}
+
+[href] {
+  color: #cc3;
+}
+
+[href]:hover {
+  color: #dd2;
+}
+
+.spill:active {
+  box-shadow: 0 -5em 5em 8em coral;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --slime: orange;
+  }
+}
