@@ -40,10 +40,6 @@ footer {
   flex-basis: 38%;
 }
 
-footer blockquote {
-  display: contents;
-}
-
 dl {
   font-family: monospace;
   line-height: 2;
